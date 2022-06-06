@@ -1,0 +1,94 @@
+@import url('ttf/Kollektif.ttf');
+@import url('ttf/Kollektif-Bold.ttf');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Kollektif';
+}
+
+body {
+    width: 1414px;
+    height: 2000px;
+    padding: 180px 120px;
+}
+
+header {
+    /* background-color: #F5F5F6; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.name {
+    width: 200px;
+    font-family: 'Kollektif-Bold';
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 120px;
+}
+
+.position {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.red {
+    color: #ff5c5c;
+}
+
+main {
+    height: 1570px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.primary {
+    height: 50%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    width: 40%;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.info {
+    width: 60%;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.info>strong {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+li {
+    height: 40px;
+}
+
+ul {
+    padding-left: 25px;
+}
