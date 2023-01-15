@@ -50,9 +50,9 @@ main {
     gap: 50px;
 }
 
-.primary {
+/* .primary {
     height: 50%;
-}
+} */
 
 section {
     display: flex;
@@ -73,7 +73,7 @@ article {
 }
 
 .info {
-    width: 60%;
+    width: 70%;
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;
@@ -91,4 +91,18 @@ li {
 
 ul {
     padding-left: 25px;
+}
+
+.not-dot {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.base {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.attendance {
+    margin-bottom: 10px;
 }
